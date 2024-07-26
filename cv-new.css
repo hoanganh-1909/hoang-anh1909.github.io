@@ -433,12 +433,16 @@ body {
     border: 2px solid var(--text-color);
     border-bottom: none; /* Loại bỏ viền dưới của các tab để nội dung của tab nằm sát nhau */
     background: white;
+    color: var(--text-color);
+    font-size: 0.9rem;
     cursor: pointer;
     text-align: center;
 }
 
 .tab-button:hover {
     background: var(--text-color);
+    color: white;
+
 }
 
 .tab-content {
