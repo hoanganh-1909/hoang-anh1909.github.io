@@ -53,4 +53,17 @@
                     container.classList.remove('hovered');
                 });
             });
+
+            // Tab
+            function openTab(tabId) {
+                const contents = document.querySelectorAll('.tab-content');
+                contents.forEach(content => {
+                    if (content.id === tabId) {
+                        content.style.display = 'block';
+                    } else {
+                        content.style.display = 'none';
+                    }
+                });
+            }
+            
             

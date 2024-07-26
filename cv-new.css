@@ -410,3 +410,59 @@ body {
     z-index: 1; 
 }
 
+
+
+/* Tab */
+.tab-container {
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.tab-buttons {
+    display: flex;
+    border-bottom: 2px solid var(--text-color); /* Thêm viền dưới để phân cách các tab */
+}
+
+.tab-button {
+    flex: 1; /* Cho các tab chiếm đều không gian có sẵn */
+    padding: 10px;
+    border: 2px solid var(--text-color);
+    border-bottom: none; /* Loại bỏ viền dưới của các tab để nội dung của tab nằm sát nhau */
+    background: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+.tab-button:hover {
+    background: var(--text-color);
+}
+
+.tab-content {
+    padding: 20px;
+    border: 2px solid var(--text-color);
+    border-top: none; /* Loại bỏ viền trên để khớp với các tab */
+}
+
+
+.tab-inside {
+    margin-left: 10px;
+    margin-top: 10px; 
+    padding: 0; 
+}
+
+.tab-inside .title {
+    margin: 0px;
+    font-size: 1rem;
+    color: var(--text-color);
+}
+
+.tab-inside .content {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    padding: 0 1.5rem;
+    font-size: 0.9rem;
+    color: var(--text-color);
+}
