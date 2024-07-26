@@ -332,6 +332,7 @@ body {
     margin-bottom: 0px;
     padding: 0 2.5rem;
     font-size: 0.9rem;
+    text-align: justify;
     color: var(--text-color);
     transition: transform 0.3s ease, color 0.3s ease;
 }
@@ -464,5 +465,6 @@ body {
     margin-bottom: 0px;
     padding: 0 1.5rem;
     font-size: 0.9rem;
+    text-align: justify;
     color: var(--text-color);
 }
